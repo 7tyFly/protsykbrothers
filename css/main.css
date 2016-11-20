@@ -6,8 +6,7 @@
 body {
     max-width: 980px;
     width: 100%;
-    background-color: #c6bebe;
-    color: #000000;
+    background-color: #EEE9E9;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin: 0 auto;
@@ -17,6 +16,7 @@ body {
 .carousel-inner > .item > a > img {
     width: 100%;
     margin: auto;
+    max-height: 350px;
   }
   
 .carousel-inner {
@@ -64,59 +64,13 @@ a img {
     text-align: left;
 }
 
-#main {
-    min-height: 550px;
-    height: 100%;
-    margin-bottom: 10px;
-    background: #756b6b;
-}
-
-aside {
-    height: 100%;
-}
-
-#categories {
-    float: left;
-    min-height: 550px;
-    width: 25%;
-    height: 100%;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    background: #756b6b;
-}
-
-#catalog {
-    float: right;
-    width: 74%;
-    height: 100%;
-    margin-bottom: 10px;
-    background: #756b6b;
-}
-
-.contacttext {
-    font-size: 20px;
-    margin-left: 5px;
-    width: 49%;
-    color: #ffffff;
-}
-
-.text {
-    font-size: 20px;
-    margin-left: 5px;
-    color: #ffffff;
-}
-
-.map {
-    float: right;
-    margin-right: 10px;
-}
-
 header {
     margin: auto;
-    min-height: 215px;
+    min-height: 250px;
     width: 100%;
     background: url('../img/logo.png') center no-repeat;
     position: relative;
+    background-color: #F5F5F5;
 }
 
 header nav {
@@ -145,7 +99,7 @@ header nav a+a {
 #menu {
     margin-top: 5px;
     text-align: center;
-    background: #756b6b;
+    background: #F5F5F5;
     margin-bottom: 10px;
     padding: 0px 5px;
     height: 37px;
@@ -166,7 +120,7 @@ header nav a+a {
 
 #menu>ul>li>a {
     font-size: 14px;
-    color: #EFEFEF;
+    color: black;
     line-height: 37px;
     text-decoration: none;
     display: block;
@@ -179,8 +133,8 @@ header nav a+a {
 }
 
 #menu>ul>li:hover>a {
-    background: #938989;
-    color: #FFFFFF;
+    background: #FFFAFA;
+    color: black;
 }
 
 footer {
@@ -189,12 +143,19 @@ footer {
     clear: both;
     height: 85px;
     width: 100%;
-    background: url('../img/footer.png') center;
+    min-height: 85px;
+    background: #F5F5F5;
 }
 
 #blockphotos {
     display: block;
     height: 324px;
+}
+
+#blockphotos img {
+    display: block;
+    height: 324px;
+    width: 470px;
 }
 
 .blockphoto1 {
