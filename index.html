@@ -1,4 +1,16 @@
-<?php include_once('core.php');?>
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="img/favicon.png" rel="icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="vk.com/seventyfly">
+    <meta name="publisher" content="Oleg Komarnytskyy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <title>Центр вишивки: вишиванки, вишиті сукні, дитячі вишиванки Київ</title>
     <meta name="description" content="Тут опис сайту">
     <meta name="keywords" content="Тут ключові слова">
@@ -7,50 +19,71 @@
 </head>
 
 <body>
-<?php include_once('header.php');?>
-    <div id="slider" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#slider" data-slide-to="0" class="active"></li>
-        <li data-target="#slider" data-slide-to="1"></li>
-        <li data-target="#slider" data-slide-to="2"></li>
-        <li data-target="#slider" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <a href="/"><img src="img/slider.png" alt="Slide 1"></a>
+    <div id="container">
+        <header>
+            <nav>
+                <a href="/">На головну</a>
+                <a href="/delivery">Доставка і оплата</a>
+                <a href="/contacts">Контакти</a>
+            </nav>
+        </header>
+        <div id="menu">
+            <ul>
+                <li><a href="/catalog">Каталог</a></li>
+                <li><a href="/catalog">Каталог</a></li>
+                <li><a href="/catalog">Каталог</a></li>
+            </ul>
         </div>
+        <div id="slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+                <li data-target="#slider" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="/"><img src="img/slider.png" alt="Slide 1"></a>
+                </div>
 
-        <div class="item">
-            <a href="/"><img src="img/slider.png" alt="Slide 2"></a>
-        </div>
+                <div class="item">
+                    <a href="/"><img src="img/slider.png" alt="Slide 2"></a>
+                </div>
 
-        <div class="item">
-            <a href="/"><img src="img/slider.png" alt="Slide 3"></a>
+                <div class="item">
+                    <a href="/"><img src="img/slider.png" alt="Slide 3"></a>
+                </div>
+
+                <div class="item">
+                    <a href="/"><img src="img/slider.png" alt="Slide 4"></a>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        
-        <div class="item">
-            <a href="/"><img src="img/slider.png" alt="Slide 4"></a>
+        <div id="blockphotos">
+            <div class="blockphoto1">
+                <a href="/"><img alt="Photo 1" src="img/photo.png"></a>
+            </div>
+            <div class="blockphoto2">
+                <a href="/"><img alt="Photo 2" src="img/photo.png"></a>
+            </div>
         </div>
+        <footer>
+            <!--<div class="soc">
+            <a href="/" target="_blank"><img src="/img/facebook.png" alt="Our facebook page"></a>
+            <a href="/" target="_blank"><img src="/img/vk.png" alt="Our vk page"></a>
+            <a href="/" target="_blank"><img src="/img/instagram.png" alt="Our instagram page"></a>
+        </div>-->
+        </footer>
     </div>
-
-    <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#slider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-    <div id="blockphotos">
-        <div class="blockphoto1">
-            <a href="/"><img alt="Photo 1" src="img/photo.png"></a>
-        </div>
-        <div class="blockphoto2">
-            <a href="/"><img alt="Photo 2" src="img/photo.png"></a>
-        </div>
-    </div>
-<?php include_once('footer.php');?>
 
 </body>
 
