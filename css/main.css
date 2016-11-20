@@ -115,7 +115,7 @@ header {
     margin: auto;
     min-height: 215px;
     width: 100%;
-    background: url('/img/logo.png') center no-repeat;
+    background: url('img/logo.png') center no-repeat;
     position: relative;
 }
 
@@ -189,7 +189,7 @@ footer {
     clear: both;
     height: 85px;
     width: 100%;
-    background: url('/img/footer.png') center;
+    background: url('img/footer.png') center;
 }
 
 #blockphotos {
