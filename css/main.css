@@ -6,7 +6,7 @@
 body {
     max-width: 980px;
     width: 100%;
-    background-color: #EEE9E9;
+    background-color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ header {
     width: 100%;
     background: url('../img/logo.png') center no-repeat;
     position: relative;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 header nav {
@@ -97,7 +97,7 @@ header nav a+a {
 }
 
 #menu {
-    margin-top: 5px;
+    margin-top: 0px;
     text-align: center;
     background: #F5F5F5;
     margin-bottom: 10px;
@@ -144,7 +144,7 @@ footer {
     height: 85px;
     width: 100%;
     min-height: 85px;
-    background: #F5F5F5;
+    background: #FFFFFF;
 }
 
 #blockphotos {
@@ -167,7 +167,6 @@ footer {
 }
 
 footer .soc {
-    float: left;
     margin: 10px;
 }
 
