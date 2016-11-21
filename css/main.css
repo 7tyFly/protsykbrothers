@@ -204,6 +204,7 @@ footer .soc {
 
 #blockphotos img {
     width: 100%;
+    max-width: 470px;
 }
 
 .blockphoto1 {
@@ -215,6 +216,10 @@ footer .soc {
     display: inline-block;
     float: none;
     margin-top: 10px;
+}
+
+.carousel-inner > .item > img {
+    max-width: 470px;
 }
 
 } 
