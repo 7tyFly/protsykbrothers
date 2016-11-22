@@ -6,19 +6,19 @@
 body {
     max-width: 980px;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #FFFAFA;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin: 0 auto;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
     width: 100%;
     margin: auto;
     max-height: 350px;
-  }
-  
+}
+
 .carousel-inner {
     margin-bottom: 10px;
 }
@@ -30,6 +30,27 @@ h4 {
     font-size: 32px;
     font-weight: normal;
     text-shadow: 0 0 1px rgba(0, 0, 0, .01);
+}
+
+#contacts {
+    color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid;
+    font-family: 'Baloo Bhaina', cursive;
+}
+
+#contacts h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#contacts p {
+    text-align: center;
+    font-size: 32px;
 }
 
 h2 {
@@ -62,6 +83,8 @@ a img {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    background: #FFFAFA;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -70,7 +93,7 @@ header {
     width: 100%;
     background: url('../img/logo.png') center no-repeat;
     position: relative;
-    background-color: #FFFFFF;
+    background-color: #FFFAFA;
 }
 
 header nav {
@@ -144,7 +167,7 @@ footer {
     height: 85px;
     width: 100%;
     min-height: 85px;
-    background: #FFFFFF;
+    background: #FFFAFA;
 }
 
 #blockphotos {
@@ -167,59 +190,35 @@ footer {
 }
 
 footer .soc {
-    margin: 10px;
-}
-
-/*@media and screen (min-width:320px) { 
-
-} 
-
-@media and screen (min-width:480px) { 
-    
-} 
-
-*/
-
-@media only screen and (max-width:450px) {
-    #menu {
-        height: 111px;
-    }
-    #menu>ul>li {
-        position: relative;
-        float: none;
-    }
-    #menu>ul>li>a {
-        min-width: 320px;
-        width: 100%;
-        float: none;
-    }
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 940px) {
-
-#blockphotos {
-    height: 100%;
-    text-align: center;
+    #blockphotos {
+        height: 100%;
+        text-align: center;
+    }
+    #blockphotos img {
+        width: 100%;
+        max-width: 470px;
+    }
+    .blockphoto1 {
+        display: inline-block;
+        float: none;
+    }
+    .blockphoto2 {
+        display: inline-block;
+        float: none;
+        margin-top: 10px;
+    }
+    #slider {
+        max-width: 470px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #contacts {
+        width: 100%;
+        height: 100%;
+        max-width: 470px;
+    }
 }
-
-#blockphotos img {
-    width: 100%;
-    max-width: 470px;
-}
-
-.blockphoto1 {
-    display: inline-block;
-    float: none;
-}
-
-.blockphoto2 {
-    display: inline-block;
-    float: none;
-    margin-top: 10px;
-}
-
-.carousel-inner > .item > img {
-    max-width: 470px;
-}
-
-} 
